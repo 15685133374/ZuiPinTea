@@ -1,0 +1,181 @@
+.shop-list-banner{
+	width: 100%;
+    height: 460px;
+    background: #E6DCD0;
+    position: absolute;
+    top: 320px;
+}
+.shop-list-dd1{
+	width: 234px;
+    height: 74px;
+    z-index: 99;
+    background-color: rgb(48, 56, 53);
+    position: absolute;
+    top: 320px;
+}
+.dd1,.dd2{
+	/*display: none;*/
+}
+.display:hover .dd1,.display:hover .dd2{
+	display: block;
+}
+.shop-list-dd2{
+	width: 234px;
+    height: 386px;
+    z-index: 99;
+    background-color: rgb(53, 62, 59);
+    position: absolute;
+    top: 394px;
+}
+.shop-list-content{
+	background-color: #f5f5f5;
+	width: 100%;
+	min-height: 500px;
+}
+.clearfix{
+	width: 1226px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+	color: #B0B0B0;
+	font-size: 13px;
+}
+.clearfix li{
+	float: left;
+	margin: 0 5px;
+}
+
+.dd1,.dd2{
+	display: none;
+	
+}
+.banner-img{
+	width: 1226px;
+	margin: 0 auto;
+}
+.tea-class,.list-item{
+	width: 1226px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0px auto;
+	list-style: none;
+	background: white;
+}
+.tea-class li{
+	float: left;
+	margin: 0 5px;
+	font-size: 14px;
+}
+.tea-class li a,.list-item li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+}
+.list-item li{
+	float: right;
+	margin: 0 5px;
+	font-size: 14px;
+}
+.goods-list{
+	width: 1226px;
+	height: 1778px;
+	margin-top: 30px;
+	background-color: #f5f5f5;
+	margin: 10px auto 0;
+}
+.goods-list div{
+	width: 296px;
+	height: 434px;
+	margin: 5px;
+	background: white;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.goods-list div:hover .addShopCar{
+	transform: translateY(-50px);
+	transition: .5s;
+	display: block;
+}
+.addShopCar{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: red;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    display: none;
+    bottom: -50px;
+    z-index: 10;
+
+}
+
+.goods-something{
+	width: 256px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 42px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 21px auto 16px;
+}
+.goods-ping,.well-ping{
+	margin: 0 auto 20px;
+
+width: 202px;
+
+text-align: center;
+
+font-size: 12px;
+
+line-height: 12px;
+
+box-sizing: border-box;
+
+color: #B0B0B0;
+
+max-height: 12px;
+
+padding: 0 20px;
+
+text-overflow: ellipsis;
+
+overflow: hidden;
+
+white-space: nowrap;
+}
+.new-price{
+	margin-bottom: 20px;
+
+text-align: center;
+
+font-size: 14px;
+
+color: #c00000;
+
+line-height: 14px;
+}
+.page-wrap{
+	padding: 42px 0;
+
+    padding-bottom: 42px;
+
+position: relative;
+
+padding-bottom: 76px;
+}
+.new-pages{
+	position: absolute;
+
+left: 50%;
+
+transform: translateX(-50%);
+}
